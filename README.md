@@ -9,7 +9,6 @@ The dataset was initially assessed to determine if the type of data present woul
 Convert Unix Timestamps into Standard Format
 The dates in the Deadline and Launched columns were not in a readable format and needed to be converted.  Both columns contain Unix timestamps rather than dates in a standard format.  While working with Unix timestamps was new for me, it was not difficult to follow the steps to make it readable.  A converter tool was used to interpret the timestamp and change it into the date and time assigned. This verified that we were working with Unix timestamps, and what remained was to make it into a format that was readable. This required use of an advanced Excel formula.  For example, Unix time 1361250539 was converted to 2/19/2013 with the following formula: 
 =(((J2/60)/60)/24)+DATE(1970,1,1)
-
 Create Pivot Table for Outcomes Based on Launch Date
 
 By creating summary tables, we were able to see the outcomes of all the categories, but first we had to consider which data we wanted to see summarized and how we want the data to be presented.  We determined that what was most relevant to Louise were outcomes found in the Theater category based on launch date month.  The following is a table called Theater Outcomes by Launch Date:
