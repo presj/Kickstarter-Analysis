@@ -9,6 +9,7 @@ The dataset was initially assessed to determine if the type of data present woul
 Convert Unix Timestamps into Standard Format
 The dates in the Deadline and Launched columns were not in a readable format and needed to be converted.  Both columns contain Unix timestamps rather than dates in a standard format.  While working with Unix timestamps was new for me, it was not difficult to follow the steps to make it readable.  A converter tool was used to interpret the timestamp and change it into the date and time assigned. This verified that we were working with Unix timestamps, and what remained was to make it into a format that was readable. This required use of an advanced Excel formula.  For example, Unix time 1361250539 was converted to 2/19/2013 with the following formula: 
 =(((J2/60)/60)/24)+DATE(1970,1,1)
+
 Create Pivot Table for Outcomes Based on Launch Date
 
 By creating summary tables, we were able to see the outcomes of all the categories, but first we had to consider which data we wanted to see summarized and how we want the data to be presented.  We determined that what was most relevant to Louise were outcomes found in the Theater category based on launch date month.  The following is a table called Theater Outcomes by Launch Date:
@@ -18,6 +19,7 @@ Create Pivot Chart for Outcomes Based on Launch Date
 
 To visualize the data from the Pivot Table, a line chart was created to show the relationship between theater campaign outcomes and their launch month.  The following helps to tell a part of the story:
 ![image](https://user-images.githubusercontent.com/100803302/157012728-a6e09f1b-f98c-4f12-9ec6-0fd0c2aea82b.png)
+
 Create Pivot Table for Outcomes Based on Goals
 
 This analysis shows the number and percentage of successful, failed and canceled plays based on the funding goal. First, a new sheet was created in Kickstarter showing campaign outcomes based on campaign funding goals. The COUNTIFS formula was used to find this data. Most of my time on this project was spent on COUNTIFS.  Finding the correct formulas for outcomes based on dollar range was exhaustive. After several attempts at trying on my own, including use of internet resources, I got a breakthrough when I received help during course office hours.  My difficulties related to improper filtering on the main Kickstarter sheet and formulas that lacked necessary criteria. 
