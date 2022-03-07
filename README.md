@@ -16,6 +16,7 @@ By creating summary tables, we were able to see the outcomes of all the categori
 This analysis shows the outcomes of successful, failed and canceled theater campaigns, based on their launch date. To start, a ‘years’ column was added to the Kickstarter dataset to extract the year from the ‘date created conversion’ column. Next, a pivot table was created to include filters for ‘parent category’ and ‘years,’ a row for ‘date created conversion,’ and ‘outcomes’ placed in the columns and values fields. Given that I have never worked with Pivot Tables before, extra time was needed to learn the steps and then apply them several times.  Now, I am much more comfortable with Pivot Tables and find them to be effective for creating useful summarization of data, and then providing for further visualizations.
 
 Create Pivot Chart for Outcomes Based on Launch Date
+![image](https://user-images.githubusercontent.com/100803302/157012728-a6e09f1b-f98c-4f12-9ec6-0fd0c2aea82b.png)
 
 To visualize the data from the Pivot Table, a line chart was created to show the relationship between theater campaign outcomes and their launch month.  The following helps to tell a part of the story:
 
