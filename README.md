@@ -26,7 +26,7 @@ This analysis shows the number and percentage of successful, failed and canceled
 Referencing the below table, here is a formula for finding the number of successful outcomes with a goal of 1000 to 4999: =COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays", Kickstarter!$D:$D, "<5000").  Once I had the correct outcome numbers, finding total projects and outcome percentages was not difficult. With the summary table in place, a line chart was also created to visualize the data.
  
 Create Pivot Chart for Outcomes Based on Goals
- 
+![image](https://user-images.githubusercontent.com/100803302/157013048-28187980-1b6b-484c-933c-5d0f9285a805.png)
 Results
 •	Based on data for every year of Kickstarter for Theaters, the most notable findings are 1) The most successful campaigns begin in May and June and 2) Less than 3% of total campaigns were ever canceled.  While May and June saw the launch of 111 and 110 successful campaigns respectively, those months also reflected highs for failed campaigns.  The final note related to Theater campaigns is that successful campaigns steadily declined from October through December.
 •	Based on data for the funding goals of campaigns for Plays, two conclusions are 1) The greatest number of successful campaigns occur when funding goals are less than $5000 and 2) As the dollar amount of funding goals increases above $5000 there is mostly a decrease in the number of successful campaigns.
