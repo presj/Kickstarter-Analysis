@@ -16,10 +16,10 @@ By creating summary tables, we were able to see the outcomes of all the categori
 This analysis shows the outcomes of successful, failed and canceled theater campaigns, based on their launch date. To start, a ‘years’ column was added to the Kickstarter dataset to extract the year from the ‘date created conversion’ column. Next, a pivot table was created to include filters for ‘parent category’ and ‘years,’ a row for ‘date created conversion,’ and ‘outcomes’ placed in the columns and values fields. Given that I have never worked with Pivot Tables before, extra time was needed to learn the steps and then apply them several times.  Now, I am much more comfortable with Pivot Tables and find them to be effective for creating useful summarization of data, and then providing for further visualizations.
 
 Create Pivot Chart for Outcomes Based on Launch Date
-![image](https://user-images.githubusercontent.com/100803302/157012728-a6e09f1b-f98c-4f12-9ec6-0fd0c2aea82b.png)
+
 
 To visualize the data from the Pivot Table, a line chart was created to show the relationship between theater campaign outcomes and their launch month.  The following helps to tell a part of the story:
-
+![image](https://user-images.githubusercontent.com/100803302/157012728-a6e09f1b-f98c-4f12-9ec6-0fd0c2aea82b.png)
 Create Pivot Table for Outcomes Based on Goals
 
 This analysis shows the number and percentage of successful, failed and canceled plays based on the funding goal. First, a new sheet was created in Kickstarter showing campaign outcomes based on campaign funding goals. The COUNTIFS formula was used to find this data. Most of my time on this project was spent on COUNTIFS.  Finding the correct formulas for outcomes based on dollar range was exhaustive. After several attempts at trying on my own, including use of internet resources, I got a breakthrough when I received help during course office hours.  My difficulties related to improper filtering on the main Kickstarter sheet and formulas that lacked necessary criteria. 
