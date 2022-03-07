@@ -27,7 +27,9 @@ Referencing the below table, here is a formula for finding the number of success
  
 Create Pivot Chart for Outcomes Based on Goals
 ![image](https://user-images.githubusercontent.com/100803302/157013048-28187980-1b6b-484c-933c-5d0f9285a805.png)
+
 Results
+
 •Based on data for every year of Kickstarter for Theaters, the most notable findings are 1) The most successful campaigns begin in May and June and 2) Less than 3% of total campaigns were ever canceled.  While May and June saw the launch of 111 and 110 successful campaigns respectively, those months also reflected highs for failed campaigns.  The final note related to Theater campaigns is that successful campaigns steadily declined from October through December.
 •Based on data for the funding goals of campaigns for Plays, two conclusions are 1) The greatest number of successful campaigns occur when funding goals are less than $5000 and 2) As the dollar amount of funding goals increases above $5000 there is mostly a decrease in the number of successful campaigns.
 •The gathering of some qualitative data may have helped to better explain why some campaigns succeeded and others failed.  For example, how well were any marketing tools used such as social media or other advertisement, and how much time did the client put into their project.  
